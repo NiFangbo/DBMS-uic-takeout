@@ -1,0 +1,60 @@
+.login-page {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    width: 280px;
+    padding: 2em
+}
+
+.login-card h2 {
+    margin: 1rem 0;
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 1.5em;
+}
+
+.login-input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+}
+
+.login-button {
+    display: block;
+    margin-left: auto;
+}
+
+.login-bottom-hint {
+    padding-top: 2em;
+    font-size: 10pt;
+    color: #404040;
+}
+
+.login-title {
+    text-align: right;
+    font-family: 'Montserrat Bold', sans-serif;
+    color: white;
+    font-size: 6em;
+    text-shadow: 6px 6px 0 rgba(0, 0, 0, .75);
+    margin: 0;
+    padding-right: 2rem;
+    line-height: 1.0;
+}
+
+.register-card {
+    width: 480px;
+    padding: 2em
+}
+
+.register-card h2 {
+    margin: 1rem 0;
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 1.5em;
+}

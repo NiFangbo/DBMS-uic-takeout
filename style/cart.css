@@ -1,0 +1,27 @@
+.order-box {
+    padding: 0 1em;   
+}
+
+.order-box-content {
+    margin-top: 1em;
+    padding-left: 0.5em;
+}
+
+.order-box-content p {
+    margin: 0.5em 0;
+}
+
+.order-box-content p label {
+    width: 12em;
+}
+
+.order-line {
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.order-address-box {
+    width: 50%
+}

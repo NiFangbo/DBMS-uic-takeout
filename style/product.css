@@ -1,0 +1,234 @@
+.product-card {
+    --card-height: 128px;
+    padding: 8px;
+    border-radius: 24px;
+    background-color: white;
+    height: var(--card-height);
+    width: 480px;
+    overflow: hidden;
+}
+
+.product-card-img {
+    display: block;
+    height: var(--card-height);
+    width: var(--card-height);
+    border-radius: 16px;
+    float: left;
+}
+
+.product-card-info {
+    display: block;
+    position: relative;
+    margin-left: 144px;
+    margin-right: 1em;
+    padding: 0.25em 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.product-card-title {
+    margin: 0;
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 14pt;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.product-card-category {
+    display: block;
+    color: #404040;
+    margin: 0.125em 0em;
+    padding: 0.125em 0.5em;
+    background-color: #F0F0F0;
+    border-radius: 6px;
+    width: fit-content;
+    font-size: 10pt;
+}
+
+.product-card-desc {
+    color: #808080;
+    margin: 0;
+    font-size: 10pt;
+}
+
+.product-card-footer {
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.product-card-price {
+    font-family: 'Montserrat SemiBold', sans-serif;
+    margin: 0;
+    color: #ff3f3f;
+}
+
+.product-card-quantity {
+    justify-self: end;
+    width: 4em;
+    height: 2em;
+}
+
+.product-card-delete {
+    width: 2em;
+    height: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+.product-card-quantity-zone {
+    line-height: 0;
+}
+
+.product-list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+    gap: 1em;
+}
+
+.product-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    overflow: hidden;
+}
+
+.product-img {
+    width: 360px;
+    height: 360px;
+    border-radius: 2rem;
+}
+
+.product-header-content {
+    margin-left: 2em;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.product-header-title {
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 2em;
+}
+
+.product-header-desc {
+    margin: 0.25rem 0;
+}
+
+.product-header-category {
+    display: block;
+    color: #404040;
+    background-color: #F0F0F0;
+    border-radius: 6px;
+    width: fit-content;
+    margin: 0.25rem 0;
+    padding: 0.25em 0.5em;
+}
+
+.product-header-price {
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    color: #ff3f3f;
+}
+
+.product-header-ending {
+    margin: 1em 0;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.product-quantity {
+    font-family: 'Montserrat SemiBold', sans-serif;
+    margin: 0 1em;
+}
+
+.add-to-cart-button {
+    height: 3em;
+    padding: 0 1.5em;
+    justify-self: end;
+}
+
+.add-to-cart-button:hover {
+    background-color: #89bcd4;
+}
+
+.product-quantity-input {
+    height: 2.5em;
+    width: 8em;
+    transition: background-color 0.25s;
+}
+
+.product-detail-title {
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 1.25em;
+}
+
+.comments-card-container {
+    padding: 0 1em;
+}
+
+.comments-card-title {
+    margin: 1rem 0;
+    padding-left: 1rem;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 2em;
+}
+
+.comments-list {
+    min-height: 4em;
+}
+
+.center-note {
+    text-align: center;
+    color: #808080;
+}
+
+.comment-box {
+    background-color: #F8F8F8;
+    border: solid 1px #D0D0D0;
+    border-radius: 2em;
+    padding: 1.5em 1.5em;
+    margin-bottom: 1em;
+}
+
+.comment-header {
+    margin-bottom: 0.5em;
+}
+
+.comment-nickname {
+    display: block;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.comment-time {
+    color: #404040;
+    margin-left: 0.5em;
+}
+
+.comment-star {
+    color: #ffb000;
+}
+
+.comment-content {
+    margin: 0;
+}
+
+.comment-footer {
+    margin-bottom: 1em;
+}

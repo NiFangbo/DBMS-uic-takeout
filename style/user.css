@@ -1,0 +1,27 @@
+.user-body {
+    padding: 0 1em;
+}
+
+.user-info-block {
+    padding-left: 1em;
+}
+
+#user-nickname-input {
+    width: 20em;
+    margin-right: 0.5em;
+}
+
+.user-info-block p {
+    min-height: 2em;
+    margin: 0.5em 0;
+}
+
+.user-info-block p label {
+    width: 12em;
+    height: 2em;
+}
+
+.user-info-footer {
+    margin-bottom: 1em;
+    text-align: right;
+}

@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    src: url("../static/fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url("../static/fonts/Montserrat-Bold.ttf");
+}
+
+* {
+    --header-height: 4em;
+    --side-bar-width: 12rem;
+}
+
+body {
+    margin: 0;
+    background-color: #F0F0F0;
+    --primary-color: #5699B8;
+    --light-color: #89BCD4;
+}
+
+a {
+    text-decoration: none;
+}
+
+a h2 {
+    color: black;
+    transition: color 0.25s, margin-left 0.25s;
+}
+
+a h2:hover {
+    color: #404040;
+    margin-left: 0.25em;
+}
+
+.delivery-page {
+    --primary-color: #56B88E;
+    --light-color: #89D5B4;
+}
+
+.manager-page {
+    --primary-color: #FFC037;
+    --light-color: #FFCC5F;
+}
+
+.uic-background {
+    background-image: url("../static/image/uic.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center center;
+}
+
+header {
+    color: rgb(15, 20, 31);
+    padding: 0 4em;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: -100;
+    right: -100;
+    height: var(--header-height);
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    margin: 0;
+    line-height: 1;
+}
+
+header ul {
+    padding: 0;
+    margin: 0
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header .header-left li {
+    float: left;
+    padding: 0 1em;
+}
+
+header .header-right li {
+    float: right;
+    padding: 0 1em;
+}
+
+li a {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    margin: .5em;
+    line-height: 1.5;
+}
+
+aside {
+    float: left;
+    padding: 0em 1em;
+    bottom: 0;
+}
+
+hr {
+    margin: 1em 0;
+    border: none;
+    height: 2px;
+    background-color: #BFBFBF;
+}
+
+.header-left {
+    justify-self: start;
+}
+
+.header-right {
+    justify-self: end;
+}
+
+.header-title {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    color: rgb(15, 20, 31);
+}
+
+.header-account {
+    font-weight: bold;
+}
+
+.side-bar {
+    position: fixed;
+    width: var(--side-bar-width);
+    height: 100vh;
+    background-color: #404040;
+}
+
+.side-bar-content {
+    padding: 0.5em 0;
+    color: white;
+}
+
+.side-bar-title {
+    margin: 0.5em 0;
+    padding: 0 1.5rem;
+    text-align: left;
+}
+
+.side-bar-item {
+    display: block;
+    padding: 0.5em 2em;
+    transition: background-color 0.25s;
+    color: white;
+}
+
+.side-bar-item:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.main-body-with-side-bar {
+    margin-left: var(--side-bar-width);
+    padding: 1em 2em;
+}
+
+.main-body {
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+.body-card {
+    margin: 2em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.input-box {
+    font-size: 1rem;
+    background-color: #F8F8F8;
+    border: solid 1px #D0D0D0;
+    border-radius: 1.25em;
+    padding: 0 1em;
+    height: 2.5em;
+    transition: background-color 0.25s;
+}
+
+.input-box:hover {
+    background-color: #FFFFFF;
+}
+
+.input-box:focus {
+    outline: none;
+    background-color: #FFFFFF;
+}
+
+.button {
+    text-align: center;
+    margin: 0 0.5em;
+    font-size: 1.0rem;
+    padding: 0 1.25em;
+    background-color: var(--primary-color);
+    color: white;
+    height: 2.5em;
+    border-radius: 1.5em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.button:hover {
+    background-color: var(--light-color);
+}
+
+.button-danger {
+    background-color: #DD5151;
+}
+
+.button-danger:hover {
+    background-color: #E37676;
+}
+
+.title {
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 2.5em;
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
+
+.small-title {
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 1.5em;
+    margin: 0 0;
+    padding-left: 0.5rem;
+}
+
+.bold {
+    font-family: 'Montserrat Bold', sans-serif;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff3f3f;
+}
+
+.textarea {
+    font-size: 1rem;
+    background-color: #F8F8F8;
+    border: solid 1px #D0D0D0;
+    border-radius: 1.25em;
+    padding: 0.75em 1em;
+    width: 32em;
+    height: 4em;
+    resize: none;
+    transition: background-color 0.25s;
+}
+
+.lines-content p {
+    overflow-wrap: break-word;
+    
+    margin: 0.5em 0;
+}
+
+.lines-content p label {
+    display: inline-block;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 0.5em;
+}
+
+.line-multiline-label {
+    display: block;
+    float: left;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.normal-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+}
