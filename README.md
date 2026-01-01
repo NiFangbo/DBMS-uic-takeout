@@ -1,4 +1,8 @@
-# 🍽️ UIC Takeout Platform - DBMS Project  
+# UIC Takeout Platform - DBMS Project
+
+---
+
+***Database Management System***
 
 ## 📌 Overview  
 The **UIC Takeout Platform** is a database-driven food delivery management system designed to streamline interactions between customers, managers, and delivery personnel. This project was developed as part of a Database Management Systems (DBMS) course, focusing on efficient data handling, user-friendly interfaces, and secure system operations.
