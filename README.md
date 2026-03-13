@@ -15,32 +15,32 @@ Delivery services play a significant role in today's fast-paced world. A well-de
 
 ## 🧩 Features
 
-<img width="1102" height="689" alt="image" src="https://github.com/user-attachments/assets/83826034-f020-4dd2-99e2-6014a3eacca6" />
+<img src="preview-image/login.png" />
 
 ### 👨‍💼 **Manager**  
 - Query products, orders, customers, delivery personnel, and comments  
 - Add new products and users
 
-<img width="910" height="564" alt="image" src="https://github.com/user-attachments/assets/2fcff78a-ccb4-4ae3-a59b-936b37750b8f" />
+<img src="preview-image/manager-product.png" />
 
-<img width="910" height="561" alt="image" src="https://github.com/user-attachments/assets/5363407e-90cb-4234-a0c9-97af178ca8e3" />
+<img src="preview-image/manager-user.png" />
 
 ### 🛒 **Customer**  
 - Add items to cart  
 - Place orders  
 - Submit comments and feedback
 
-<img width="841" height="572" alt="image" src="https://github.com/user-attachments/assets/03a63fb7-fb85-4ec6-a8f7-43b3b926e71e" />
+<img src="preview-image/customer-product.png" />
 
-<img width="839" height="553" alt="image" src="https://github.com/user-attachments/assets/26a327ba-112e-40e1-8dad-0227ee3cb3fb" />
+<img src="preview-image/customer-order.png" />
 
 ### 🚴 **Delivery Personnel**  
 - Accept and manage orders  
 - Update delivery status
 
-<img width="922" height="562" alt="image" src="https://github.com/user-attachments/assets/067fb662-7299-4547-a00b-941cb8359eec" />
+<img src="preview-image/deliveryman-take-order.png" />
 
-<img width="922" height="563" alt="image" src="https://github.com/user-attachments/assets/92c8f6f1-a8e9-492d-8a08-5b606f96cf6d" />
+<img src="preview-image/deliveryman-check-order.png" />
 
 ---
 
