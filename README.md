@@ -1,7 +1,5 @@
 # UIC Takeout Platform - DBMS Project
 
----
-
 ***Database Management System***
 
 ## 📌 Overview  
@@ -10,8 +8,6 @@ The **UIC Takeout Platform** is a database-driven food delivery management syste
 
 ## 🎯 Project Background  
 Delivery services play a significant role in today's fast-paced world. A well-designed management system can enhance customer experience and operational efficiency. This platform aims to simplify interactions between users and administrators, providing a seamless experience for all stakeholders.
-
----
 
 ## 🧩 Features
 
@@ -42,8 +38,6 @@ Delivery services play a significant role in today's fast-paced world. A well-de
 
 <img src="preview-image/deliveryman-check-order.png" />
 
----
-
 ## 🗃️ Database Design  
 
 ### ER Diagram  
@@ -57,8 +51,6 @@ The database enforces referential integrity through foreign keys linking:
 - Order → Product / Transaction  
 - Comment → Product / User  
 
----
-
 ## ⚙️ Technical Highlights  
 
 ### 🖼️ **BLOB for Image Storage**  
@@ -71,8 +63,6 @@ The database enforces referential integrity through foreign keys linking:
 ### 🔒 **Secure Connection Handling**  
 - Every `.php` file validates user type after session start.  
 - Invalid sessions are destroyed, and users are redirected to the login page for security.
-
----
 
 ## 🛠️ Installation & Setup  
 
